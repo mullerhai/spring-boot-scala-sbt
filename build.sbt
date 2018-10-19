@@ -75,11 +75,11 @@ libraryDependencies += "org.springframework.boot" % "spring-boot-starter-webflux
 //libraryDependencies += "org.springframework.cloud" % "spring-cloud-dependencies" % "Finchley.RELEASE" pomOnly()
 
 //libraryDependencies += "org.springframework.cloud" % "spring-cloud-starter-stream-kafka" % "2.0.0.RELEASE"
-//libraryDependencies += "org.springframework.cloud" % "spring-cloud-starter-netflix-hystrix-dashboard" % "2.0.0.RELEASE"
-//libraryDependencies += "org.springframework.cloud" % "spring-cloud-starter-netflix-eureka-server" % "2.0.0.RELEASE"
+libraryDependencies += "org.springframework.cloud" % "spring-cloud-starter-netflix-hystrix-dashboard" % "2.0.1.RELEASE"
+libraryDependencies += "org.springframework.cloud" % "spring-cloud-starter-netflix-eureka-server" % "2.0.1.RELEASE"
 //libraryDependencies += "org.springframework.cloud" % "spring-cloud-spring-service-connector" % "2.0.2.RELEASE"
-//libraryDependencies += "org.springframework.cloud" % "spring-cloud-context" % "2.0.0.RELEASE"
-//libraryDependencies += "org.springframework.cloud" % "spring-cloud-commons" % "2.0.0.RELEASE"
+libraryDependencies += "org.springframework.cloud" % "spring-cloud-context" % "2.0.1.RELEASE"
+libraryDependencies += "org.springframework.cloud" % "spring-cloud-commons" % "2.0.1.RELEASE"
 //libraryDependencies += "org.springframework.cloud" % "spring-cloud-stream" % "2.0.0.RELEASE"
 //libraryDependencies += "org.springframework.cloud" % "spring-cloud-starter-config" % "2.0.0.RELEASE"
 //libraryDependencies += "org.springframework.cloud" % "spring-cloud-starter" % "2.0.0.RELEASE"
